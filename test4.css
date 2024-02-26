@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 980px;
+    margin: auto;
+}
+
+/* css header */
+.header{
+    height: 100px;
+    background: orangered;
+}
+
+/* css menu */
+a{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+}
+a:hover{
+     
+}
+.menu{
+    height: 50px;
+    background: black;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+    line-height: 50px;
+    padding-left: 80px;
+}
+
+.banner{
+   
+}
+.new{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.product{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+.box{
+    border: 1px solid black;
+}
+.footer{
+    height: 100px;
+    background: gray;
+}
